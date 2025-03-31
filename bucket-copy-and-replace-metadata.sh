@@ -1,5 +1,4 @@
 # Description: S3バケット間でファイルをコピーし、拡張子がPDFの場合はメタデータを上書きします。
-# Usage: sh bucket-copy-and-metadata-directive.sh
 BUCKET="" # コピー元のバケット名
 PREFIX="" # コピー元のプレフィックス
 DEST_BUCKET="" # コピー先のバケット名
