@@ -23,14 +23,9 @@ S3バケット間でファイルをコピーし、PDFファイルの場合はメ
    DEST_BUCKET="" # コピー先のバケット名
    ```
 
-2. スクリプトに実行権限を付与します：
-   ```bash
-   chmod +x bucket-copy-and-metadata-directive.sh
-   ```
-
-3. スクリプトを実行します：
-   ```bash
-   ./bucket-copy-and-metadata-directive.sh
+2. スクリプトを実行します：
+   ```sh
+   sh bucket-copy-and-metadata-directive.sh
    ```
 
 ## 注意点
