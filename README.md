@@ -1,4 +1,4 @@
-# bucket-copy-and-metadata-directive
+# bucket-copy-and-replace-metadata
 
 S3バケット間でファイルをコピーし、PDFファイルの場合はメタデータを上書きするシェルスクリプトです。
 
@@ -25,7 +25,7 @@ S3バケット間でファイルをコピーし、PDFファイルの場合はメ
 
 2. スクリプトを実行します：
    ```sh
-   sh bucket-copy-and-metadata-directive.sh
+   sh bucket-copy-and-replace-metadata.sh
    ```
 
 ## 注意点
